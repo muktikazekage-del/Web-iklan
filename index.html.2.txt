@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Klaim Hadiahmu Sekarang!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #FF416C, #FF4B2B);
+            color: white;
+        }
+        .btn {
+            padding: 15px 30px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎁 Klik Tombol Dibawah untuk Klaim Hadiah!</h1>
+    <button class="btn" onclick="showAd()">KLIK DISINI</button>
+
+    <script>
+        function showAd() {
+            // PopUnder Adsterra
+            var win = window.open('https://en.mrproblogger.com/uqDtyxq', '_blank');
+            win.blur();
+            window.focus();
+            
+            // Redirect setelah 10 detik
+            setTimeout(function() {
+                window.location.href = "https://www.google.com";
+            }, 10000);
+        }
+    </script>
+</body>
+</html>

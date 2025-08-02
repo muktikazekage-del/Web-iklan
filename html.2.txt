@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HADIAH GRATIS!</title>
+    <script>
+    // Fungsi untuk trigger iklan + redirect
+    function showAd() {
+        // PopUnder Adsterra
+        var win = window.open('https://google.com', '_blank');
+        win.blur();
+        window.focus();
+        
+        // Redirect setelah 15 detik
+        setTimeout(function() {
+            window.location.href = "https://en.mrproblogger.com/uqDtyxq";
+        }, 15000);
+    }
+    </script>
+</head>
+<body>
+    <h1>🎉 KLIK TOMBOL DIBAWAH UNTUK HADIAH!</h1>
+    <button onclick="showAd()">KLIK DISINI</button>
+
+    <!-- Kode Adsterra -->
+    <script type='text/javascript'>
+        atOptions = {
+            'key': '5195883b672de5ef3d3d49f40a0fe178',
+            'format': 'popunder',
+            'popunder': true
+        };
+        document.write('<scr'+'ipt src="https://participatechronic.com/fde3tbnbv/invoke.js"></scr'+'ipt>');
+    </script>
+</body>
+</html>
